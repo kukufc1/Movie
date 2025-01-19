@@ -1,0 +1,23 @@
+#root {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+.ant-tabs {
+  align-items: center;
+  background-color: #ffffff;
+}
+.ant-tabs-tabpane input {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  margin: 0 auto;
+}
+.ant-tabs-tabpane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .ant-row {
+  justify-content: center;
+} */

@@ -1,0 +1,89 @@
+.rc-tabs-0-panel-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.ant-card {
+  border-radius: 0px !important;
+  border: none;
+}
+.ant-card-body {
+  /* max-width: 450px !important; */
+  /* height: 280px; */
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px 0px #00000026;
+  padding: 0 !important;
+  border-radius: 0px !important;
+}
+.card-box {
+  display: flex;
+}
+.card-box-poster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    flex-basis: 80%;
+    font-family: Inter UI;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+  }
+  div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 8px;
+  }
+}
+.movie-title {
+  font-size: 1.5em;
+  margin: 0.5em 0 0 0;
+}
+.release-date {
+  font-family: Inter UI;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: left;
+  color: #827e7e;
+  margin: 0.5em 0 0 0;
+}
+.genre-list {
+  margin: 0.5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.genre-button {
+  max-width: 100px;
+  height: 20px;
+  background-color: #fafafa;
+  color: #000000a6;
+  margin: 0 10px 5px 0;
+  border-radius: 2px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  border-color: #d9d9d9;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+
+.genre-button:hover {
+  background-color: #e0e0e0; /* Цвет фона при наведении */
+}
